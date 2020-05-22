@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>İletişim</title>
+</head>
+<style type="text/css">
+    .header {
+        padding: 5vh 0;
+        background-color: rgba(199, 77, 43, 1);
+        color: white;
+    }
+    .space {
+        margin: 10vh 0;
+    }
+    .bg-info {
+        background-color: rgba(199, 77, 43, 1);
+    }
+    .md-form {
+        padding: 3vh 0;
+    }
+    .mb-4 {
+        margin-top: 12vh;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="text-center">ILETISIM</h1>
+        </div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+              <ul class="navbar-nav glyphicon ">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Hakkımızda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">İletişim</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Giriş</a>
+                </li>
+              </ul>
+        </nav>
+        <content>
+            <section class="mb-4">
+                <h2 class="h1-responsive font-weight-bold text-center my-4">Bizimle İletişime Geçin !</h2>
+                <p class="text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                <div class="row">
+                <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Adınız">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control" placeholder="Soyadınız">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Konu">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Mesaj..."></textarea>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+
+            <div class="text-center text-md-left ">
+                <a class="btn bg-dark">Gönder</a>
+            </div>
+            <div class="status"></div>
+        </div>     
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>İstanbul</p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+ 90 111 222 33 44</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>iletişim@site.com</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</section>
+        </content>
+        <footer class="page-footer">
+          <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          </div>
+        </footer>
+    </div>
+
+</body>
+</html>
